@@ -1,0 +1,130 @@
+body {
+    background-color: #ecd8e7; /* Cor suave de fundo */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #93096e; /* Cor diferente */
+    text-align: center;
+    font-size: 50px;
+}
+
+.sobreMim{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    background-color: #93096e;
+    border-radius: 8px ;
+    color: aliceblue;
+    padding: 15px;
+    font-family: cursive;
+}
+
+.listaHobbies {
+    margin-left: 30px;
+    line-height: 3em;
+    color:#93096e;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.hobbies {
+    display: block;
+    gap: 30px; 
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 2px;
+  }
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.imagens img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.imagens p{
+    font-size: 20px;
+    color: #93096e;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-color: #93096e;
+}
+
+th{
+    background-color:#93096e;
+    color: aliceblue;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #93096e;
+    font-family: cursive;
+}
+
+td img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+
+
+.button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #93096e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: start;
+    font-family: cursive;
+}
+
+#mensagem {
+    text-align: start;
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 20px;
+    color: #93096e;
+  }
+
+  .botao-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+.link{
+    background-color: #93096e;
+    color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+button:hover{
+    color:#93096e;
+    background-color: aliceblue;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #93096e;
+    margin: 20px 0;
+    margin-top: 3%;
+}
+    
